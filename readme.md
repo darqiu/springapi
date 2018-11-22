@@ -7,7 +7,11 @@
 ##配置运行
 
 * 服务器需求：UBUNTU  PHP5.6+，兼容PHP7.2 PHP-MYSQL及MYSQL_PDO
-* 测试服务器启动方法
+* 数据库结构：创建一个表名为 api_author ，表结构如下：
+
+| id  | appid  | secret    |
+|--------- | -------| -----|
+| 1   | 100888 | abcdefghi |
 
 ##文件结构
 
